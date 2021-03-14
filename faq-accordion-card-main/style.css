@@ -16,8 +16,6 @@ body {
   width: 100vw;
   height: 100vh;
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   background: linear-gradient(var(--color-soft-violet), var(--color-soft-blue));
   display: flex;
   flex-direction: column;
@@ -29,7 +27,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--divided-color);
+  background-color: #ffffff;
   background-image: url(./images/bg-pattern-desktop.svg);
   background-repeat: no-repeat;
   background-size: 800px;
@@ -38,8 +36,11 @@ body {
   height: 500px;
   border-radius: 25px;
   position: absolute;
+  box-shadow:0px 22px 40px -10px var(--text-color-v-d-grey-blue);
+}
+
+.image__overflow {
   overflow: hidden;
-  box-shadow:0px 25px 30px -5px var(--text-color-v-d-grey-blue);
 }
 
 .card__image {
@@ -49,7 +50,7 @@ body {
 
 .card__box {
   position: absolute;
-  margin-left: -95px;
+  margin-left: -93px;
   margin-top: 95px;
   z-index: 1;
 }
@@ -62,10 +63,9 @@ body {
 }
 
 .icon__arrow {
-  width: 12px;
-  height: 8px;
+  width: 10px;
+  height: 6px;
 }
-
 
 h1 {
   font-weight: 600;
@@ -85,6 +85,7 @@ ul  li {
   color: var(--text-color-v-d-grey-blue);
   margin-left: -40px;
   margin-right: 50px;
+  margin-bottom: 12px;
 }
 
 div.question {
@@ -101,13 +102,13 @@ p {
 
 hr {
     color: var(--divided-color);
-    background-color: #dad9e8;
+    background-color: var(--divided-color);
     height: 1px;
     border: 0;
     margin-left: -40px;
     margin-right: 40px;
+    margin-bottom: 12px;
 }
-
 
 li:hover {
     color: var(--color-soft-red);
