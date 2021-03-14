@@ -84,6 +84,7 @@ ul  li {
   font-weight: 400;
   color: var(--text-color-v-d-grey-blue);
   margin-left: -40px;
+  margin-right: 50px;
 }
 
 div.question {
@@ -100,7 +101,11 @@ p {
 
 hr {
     color: var(--divided-color);
+    background-color: #dad9e8;
+    height: 1px;
+    border: 0;
     margin-left: -40px;
+    margin-right: 40px;
 }
 
 
