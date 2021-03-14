@@ -90,12 +90,11 @@ ul  li {
 }
 
 div.question {
+   display: flex;
+   flex-direction: column;
    width: 330px;
-   height: 40px;
-}
-
-.question__title {
-  transition: 0.5s;
+   height: auto;
+   min-height: 50px;
 }
 
 p {
@@ -121,7 +120,7 @@ li:hover {
     transition: 0.5s;
 }
 
-.show__text .question__text{
+.show__text p {
     display: block;
     margin-bottom: 10px;
     max-width: 95%;
