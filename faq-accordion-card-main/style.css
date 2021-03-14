@@ -65,6 +65,7 @@ body {
 .icon__arrow {
   width: 10px;
   height: 6px;
+  transition: 0.5s;
 }
 
 h1 {
@@ -93,6 +94,10 @@ div.question {
    height: 40px;
 }
 
+.question__title {
+  transition: 0.5s;
+}
+
 p {
     display: none;
     color: var(--text-color-d-grey-blue);
@@ -113,16 +118,22 @@ hr {
 li:hover {
     color: var(--color-soft-red);
     cursor: pointer;
+    transition: 0.5s;
 }
 
-.show-text .question-text{
+.show__text .question__text{
     display: block;
     margin-bottom: 10px;
-    max-width: 90%;
-    transition: height 1s;
+    max-width: 95%;
 }
 
-.show-text .question-title {
+.show__text .question__title {
     font-weight: 600;
     color: var(--text-color-v-d-grey-blue);
+    transition: 0.5s;
+}
+
+.show__text img {
+   transform: rotate(180deg);
+   transition: 0.5s;
 }
