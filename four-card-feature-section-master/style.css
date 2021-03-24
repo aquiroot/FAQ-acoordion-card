@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+:root {
+	--primary-red: hsl(0, 78%, 62%);
+	--primary-cyan: hsl(180, 62%, 55%);
+	--primary-orange: hsl(34, 97%, 64%);
+	--primary-blue: hsl(212, 86%, 64%);
+	--neutral-v-d-blue: hsl(234, 12%, 34%);
+	--neutral-grey-blue: hsl(229, 6%, 66%);
+	--neutral-v-l-grey: hsl(0, 0%, 98%);
+}
+
+* {
+	font-family: 'Poppins', sans-serif;
+	overflow: hidden;
+}
+
+body {
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: var(--neutral-v-l-grey);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	color: var(--neutral-v-d-blue);
+	font-weight: 600;
+	font-size: 28px;
+	margin: 5px 5px 30px 5px;
+}
+
+h2 {
+	color: var(--neutral-v-d-blue);
+	font-weight: 200;
+	font-size: 28px;
+	margin: 5px;
+}
+
+h3 {
+	color: var(--neutral-v-d-blue);
+	font-weight: 600;
+	font-size: 15px;
+	margin-top: 0px;
+}
+
+h4 {
+	color: var(--neutral-grey-blue);
+	font-weight: 400;
+	font-size: 10px;
+	margin-top: -8px;
+}
+
+span {
+	color: var(--neutral-grey-blue);
+	font-weight: 400;
+	font-size: 12px;
+}
+
+span:last-child {
+	margin-bottom: 50px;
+}
+
+img {
+	width: 50px;
+	margin-left: auto;
+}
+
+.container {
+	margin: 0 80px 0 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.titles {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.cards {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	width: auto;
+	height: auto;
+}
+
+.card {
+	background-color: white;
+	margin: 12px;
+	border-radius: 5px;
+	width: 220px;
+	height: 150px;
+	padding: 20px;
+	box-shadow: 4px 4px 16px -10px var(--neutral-v-d-blue);
+}
+
+.c1 {
+	border-top: 3px solid var(--primary-cyan);
+}
+
+.c2 {
+	border-top: 3px solid var(--primary-red);
+}
+
+.c3 {
+	border-top: 3px solid var(--primary-orange);
+	margin-top: 24px;
+}
+
+.c4 {
+	border-top: 3px solid var(--primary-blue);
+}
