@@ -38,6 +38,18 @@ span {
 	font-weight: 700;
 }
 
+h3 {
+	color: var(--color-v-d-blue);
+	font-weight: 700;
+	font-size: 28px;
+}
+
+h3 span {
+	color: var(--color-gray-blue);
+	font-weight: 700;
+	font-size: 12px;
+}
+
 h4 {
 	color: var(--color-pale-blue);
 	font-weight: 700;
@@ -59,19 +71,28 @@ h4 {
 	height: 150px;
 	border-radius: 10px 100px 10px 10px;
 	margin: 10px;
+	padding: 40px;
 	box-shadow: 4px 4px 16px -10px var(--color-v-d-blue);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.logo {
+	width: 130px;
 }
 
 .icons {
+	margin-top: 20px;
 	display: flex;
 }
 
 .icon {
 	background-color: var(--color-v-d-blue);
-	width: 30px;
-	height: 30px;
+	width: 40px;
+	height: 40px;
 	margin: 5px;
-	border-radius: 5px;
+	border-radius: 10px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -83,7 +104,7 @@ h4 {
 	height: 60px;
 	border-radius: 10px;
 	margin: 10px;
-	margin-top: 25px;
+	margin-top: 90px;
 	padding: 40px;
 	box-shadow: 4px 4px 16px -10px var(--color-v-d-blue);
 }
@@ -126,4 +147,13 @@ h4 {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 15px;
+}
+
+.popup {
+	background-color: #fefffe;
+	padding: 10px;
+	border-radius: 8px;
+	position: absolute;
+	margin-left: 490px;
+	margin-top: -50px;
 }
