@@ -19,3 +19,90 @@ body {
 	font-family: var(--font-family-body);
 	font-size: 18px;
 }
+
+button {
+	text-decoration: none;
+	text-decoration: none;
+	border: none;
+	box-shadow: 4px 4px 16px -10px var(--neutral-gray-blue);
+	border-radius: 20px;
+	font-family: var(--font-family-body);
+	font-weight: 700;
+	min-height: 40px;
+}
+
+h1 {
+	color: var(--neutral-dark-cyan);
+	font-family: var(--font-family-headings);
+	font-weight: 600;
+}
+
+h4 {
+	color: var(--neutral-dark-cyan);
+	font-family: var(--font-family-body);
+	font-weight: 400;
+	font-size: 14px;
+	margin: 30px 0 30px 0;
+}
+
+.home {
+	background-color: var(--neutral-pale-cyan);
+	background-image: url('./images/bg-hero-desktop.svg');
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 40px 0 50px 0;
+}
+
+.bar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 50px 0 50px;
+}
+
+.bar img {
+	width: 150px;
+}
+
+.bar button {
+	background-color: white;
+	color: var(--neutral-dark-cyan);
+	min-width: 150px;
+}
+
+.bar button:hover {
+	background-color: var(--primary-pink);
+	cursor: pointer;
+}
+
+.hero {
+	display: flex;
+	margin-top: 50px;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	width: 45%;
+	margin: 0 25px 0 50px;
+}
+
+.info button {
+	background-color: var(--primary-pink);
+	min-width: 220px;
+	color: white;
+	padding: 0px;
+}
+
+.info button:hover {
+	background-color: white;
+	color: var(--neutral-dark-cyan);
+	cursor: pointer;
+}
+
+.mockups {
+	width: 55%;
+	margin: 0 50px 0 25px;
+}
