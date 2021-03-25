@@ -43,6 +43,7 @@ h2 {
 	font-family: var(--font-family-headings);
 	font-weight: 600;
 	font-size: 24px;
+	margin-bottom: 10px;
 }
 
 h4 {
@@ -147,4 +148,46 @@ span {
 .card img {
 	width: 35%;
 	margin: 20px 0 20px 0;
+}
+
+footer {
+	background-color: var(--neutral-dark-cyan);
+	color: white;
+	padding: 60px;
+	margin-top: 150px;
+}
+
+.card__ready {
+	position: absolute;
+	width: 600px;
+	height: 180px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	box-shadow: 0px 0px 17px -10px var(--neutral-gray-blue);
+	margin-top: -180px;
+	left: 25%;
+}
+
+.card__ready button {
+	background-color: var(--primary-pink);
+	min-width: 220px;
+	min-height: 50px;
+	color: white;
+	border-radius: 60px;
+	padding: 0px;
+}
+
+.card__ready h1 {
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+
+.card__ready button:hover {
+	background-color: white;
+	color: var(--neutral-dark-cyan);
+	cursor: pointer;
 }
