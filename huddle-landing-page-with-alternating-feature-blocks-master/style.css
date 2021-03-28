@@ -180,7 +180,7 @@ footer {
 	background-color: var(--neutral-dark-cyan);
 	color: white;
 	min-height: 380px;
-	padding: 130px;
+	padding: 130px 100px 50px 100px;
 	margin-top: 250px;
 }
 
@@ -209,7 +209,10 @@ footer {
 	font-size: 20px;
 }
 
-.card__ready h1 {
+.card__ready h5 {
+	color: var(--neutral-dark-cyan);
+	font-family: var(--font-family-body);
+	font-weight: 400;
 	font-size: 32px;
 	margin-bottom: 25px;
 }
@@ -222,7 +225,7 @@ footer {
 
 footer img {
 	width: 240px;
-	margin-top: 100px;
+	margin-top: 80px;
 }
 
 .contact {
