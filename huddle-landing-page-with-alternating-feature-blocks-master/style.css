@@ -36,14 +36,14 @@ h1 {
 	color: var(--neutral-dark-cyan);
 	font-family: var(--font-family-headings);
 	font-weight: 600;
-	font-size: 34px;
+	font-size: 40px;
 }
 
 h2 {
 	color: var(--neutral-dark-cyan);
 	font-family: var(--font-family-headings);
 	font-weight: 600;
-	font-size: 24px;
+	font-size: 28px;
 	margin-bottom: 10px;
 }
 
@@ -51,7 +51,7 @@ h4 {
 	color: var(--neutral-dark-cyan);
 	font-family: var(--font-family-body);
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 20px;
 	margin: 30px 0 30px 0;
 }
 
@@ -59,7 +59,7 @@ h6 {
 	color: var(--neutral-pale-cyan);
 	font-family: var(--font-family-body);
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 16px;
 	margin: 10px;
 }
 
@@ -67,7 +67,7 @@ span {
 	color: var(--neutral-gray-blue);
 	font-family: var(--font-family-body);
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 18px;
 }
 
 .home {
@@ -75,7 +75,7 @@ span {
 	background-image: url('./images/bg-hero-desktop.svg');
 	background-position: center;
 	background-repeat: no-repeat;
-	padding: 40px 0 50px 0;
+	padding: 045px 0 50px 0;
 }
 
 .bar {
@@ -86,13 +86,16 @@ span {
 }
 
 .bar img {
-	width: 150px;
+	width: 200px;
 }
 
 .bar button {
 	background-color: white;
 	color: var(--neutral-dark-cyan);
-	min-width: 150px;
+	min-width: 180px;
+	min-height: 50px;
+	font-size: 16px;
+	border-radius: 60px;
 }
 
 .bar button:hover {
@@ -102,7 +105,7 @@ span {
 
 .hero {
 	display: flex;
-	margin-top: 50px;
+	margin-top: 74px;
 }
 
 .info {
@@ -110,30 +113,35 @@ span {
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
-	width: 45%;
+	width: 50%;
 	margin: 0 25px 0 50px;
 }
 
 .info button {
 	background-color: var(--primary-pink);
-	min-width: 220px;
+	min-width: 300px;
+	min-height: 60px;
+	border-radius: 80px;
 	color: white;
 	padding: 0px;
+	font-size: 16px;
 }
 
 .info button:hover {
 	background-color: white;
 	color: var(--neutral-dark-cyan);
 	cursor: pointer;
+	font-size: 20px;
 }
 
 .mockups {
-	width: 55%;
-	margin: 0 50px 0 25px;
+	width: 47%;
+	margin: 0 40px 20px 80px;
 }
 
 .cards {
 	padding: 100px 60px 60px 60px;
+	margin-top: 30px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -144,8 +152,9 @@ span {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	min-height: 380px;
 	border-radius: 10px;
-	margin: 15px;
+	margin: 20px;
 	padding: 30px 20px 30px 80px;
 	box-shadow: 0px 0px 17px -10px var(--neutral-gray-blue);
 }
@@ -162,36 +171,38 @@ span {
 footer {
 	background-color: var(--neutral-dark-cyan);
 	color: white;
-	padding: 60px;
-	margin-top: 150px;
+	min-height: 380px;
+	padding: 130px;
+	margin-top: 250px;
 }
 
 .card__ready {
 	position: absolute;
-	width: 600px;
-	height: 180px;
+	min-width: 800px;
+	min-height: 280px;
 	background-color: white;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	border-radius: 10px;
+	border-radius: 16px;
 	box-shadow: 0px 0px 17px -10px var(--neutral-gray-blue);
-	margin-top: -180px;
-	left: 25%;
+	margin-top: -300px;
+	left: 24%;
 }
 
 .card__ready button {
 	background-color: var(--primary-pink);
-	min-width: 220px;
-	min-height: 50px;
+	min-width: 380px;
+	min-height: 80px;
 	color: white;
 	border-radius: 60px;
 	padding: 0px;
+	font-size: 20px;
 }
 
 .card__ready h1 {
-	font-size: 24px;
+	font-size: 32px;
 	margin-bottom: 25px;
 }
 
@@ -202,14 +213,14 @@ footer {
 }
 
 footer img {
-	width: 150px;
-	margin-top: 60px;
+	width: 240px;
+	margin-top: 100px;
 }
 
 .contact {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 20px;
+	margin-top: 40px;
 }
 
 .block {
@@ -219,7 +230,7 @@ footer img {
 }
 
 .contact img {
-	width: 10px;
+	width: 14px;
 	margin-top: 16px;
 	margin-right: 10px;
 }
